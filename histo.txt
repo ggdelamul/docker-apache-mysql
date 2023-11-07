@@ -1,0 +1,33 @@
+    1  history
+    2  docker --version
+    3  docker ps
+    4  docker image ls
+    5  docker container ls
+    6  history>histo.txt
+    7  docker pull http
+    8  docker pull httpd
+    9  docker image ls
+   10  history>histo.txt
+   11  docker run httpd
+   12  docker ps
+   13  docker run httpd
+   14  docker run -p 8080:80 httpd
+   15  docker ps
+   16  docker run -p 8080:80 httpd
+   17  docker run --name apache1 -p 8080:80 httpd
+   18  docker stop pache1
+   19  docker stop a pache1
+   20  docker stop apache1
+   21  history>histo.txt
+   22  docker ps -a
+   23  docker rm apache1
+   24  docker ps
+   25  docker ps -a
+   26  docker run --name apache1 -p 8080:80 httpd
+   27  docker --version
+   28  touch docker-compose.yml
+   29  docker-compose -up
+   30  docker-compose up
+   31  history>histo.txt
+   32  docker compose down
+   33  history>histo.txt
